@@ -10,7 +10,6 @@ class Hand {
 
   val hand = new ListBuffer[Card]
 
-  //Ace can take two values  1 and 11
   def hasACE(): Boolean ={
     hand.contains(Ace)
   }
